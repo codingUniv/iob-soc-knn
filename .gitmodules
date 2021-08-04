@@ -7,3 +7,6 @@
 [submodule "submodules/CACHE"]
 	path = submodules/CACHE
 	url = git@github.com:IObundle/iob-cache.git
+[submodule "submodules/KNN"]
+	path = submodules/KNN
+	url = git@github.com:codingUniv/KNN.git
