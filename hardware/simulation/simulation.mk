@@ -1,7 +1,7 @@
 #DEFINES
 
 #default baud and freq for simulation
-BAUD ?=5000000
+BAUD ?=1000000
 FREQ ?=100000000
 
 #define for testbench

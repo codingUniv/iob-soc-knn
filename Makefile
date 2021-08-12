@@ -13,7 +13,14 @@ pc-emul:
 #
 
 sim:
+	ls $(SIM_DIR)
 	make -C $(SIM_DIR) all
+
+sim-waves: $(SIM_DIR)/system.vcd
+	gtkwave -a $(SIM_DIR)/../waves.gtkw $< &
+
+$(SIM_DIR)/system.vcd: 
+	make -C . sim
 
 
 #
