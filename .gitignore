@@ -13,6 +13,9 @@ hardware/fpga/AES-KU040-DB-G/synth_system.bit
 hardware/simulation/icarus/*
 !hardware/simulation/icarus/Makefile
 !hardware/simulation/icarus/test.expected
+!hardware/simulation/icarus/features_dec.mem
+!hardware/simulation/icarus/feature1_dec.mem
+!hardware/simulation/icarus/feature2_dec.mem
 
 hardware/simulation/ncsim/*
 !hardware/simulation/ncsim/Makefile
