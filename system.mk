@@ -49,7 +49,7 @@ BOARD ?=CYCLONEV-GT-DK
 FPGA_DDR_ADDR_W ?=30
 
 #ROOT DIR ON REMOTE MACHINES
-REMOTE_ROOT_DIR ?=sandbox/iob-soc
+REMOTE_ROOT_DIR ?=smakhtari/iob-soc
 
 #/home/trainee/sandbox
 
