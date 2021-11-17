@@ -12,7 +12,7 @@ DEFINE+=$(defmacro)FREQ=$(FREQ)
 DEFINE+=$(defmacro)DDR_ADDR_W=24
 
 #produce waveform dump
-VCD ?=1
+VCD ?=0
 
 ifeq ($(VCD),1)
 DEFINE+=$(defmacro)VCD
